@@ -31,6 +31,7 @@ class _TabletScaffoldState extends State<TabletScaffold> {
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 4),
                   itemBuilder: (context, index) {
+                    // ignore: prefer_const_constructors
                     return MyBox();
                   },
                 ),

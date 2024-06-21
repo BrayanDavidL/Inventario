@@ -4,7 +4,7 @@ import '../util/my_box.dart';
 import '../util/my_tile.dart';
 
 class DesktopScaffold extends StatefulWidget {
-  const DesktopScaffold({Key? key}) : super(key: key);
+  const DesktopScaffold({super.key});
 
   @override
   State<DesktopScaffold> createState() => _DesktopScaffoldState();
@@ -51,7 +51,7 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
                                       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                                           crossAxisCount: 4),
                                       itemBuilder: (context, index) {
-                                        return MyBox();
+                                        return const MyBox();
                                       },
                                     ),
                                   ),
